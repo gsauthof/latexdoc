@@ -1,3 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% blank
+% KOMA article class
+% see also:
+% http://mirror.ctan.org/macros/latex/contrib/koma-script/scrguide.pdf
+\documentclass{scrartcl}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% latin modern - 'The fonts, as compared to the CM family,
+% contain a lot of additional characters, mainly accented
+% ones.' http://www.ctan.org/tex-archive/fonts/lm/
+\usepackage{lmodern}
+
+%\usepackage[english]{babel}
+\usepackage[ngerman]{babel}
+
+% e.g.: \includegraphics ...
+\usepackage{graphicx}
+
+% e.g. \align ...
+\usepackage{amsmath}
+
+% verbatim program code:
+% \usepackage{listings}
+% nicer tables:
+% \usepackage{colortbl}
+% \usepackage{booktabs}
+
+% always last:
+% e.g. \url, \href, inter-PDF-links ...
+\usepackage{hyperref}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+Hello World!
+\end{document}
